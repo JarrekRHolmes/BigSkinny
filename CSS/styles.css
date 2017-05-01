@@ -1,0 +1,541 @@
+/* Universal Font/Styling */
+body{
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+/*End universal styling */
+
+/* For the Nav-Bar */
+#wrapper{
+	background-color: black;
+	margin-left: -3%;
+	margin-top: -2%;
+	width: 110%;
+	height: 43.5%;
+}
+
+#logo{
+	width: 20%;
+	margin-left: 38%;
+	margin-top: 2.5%;
+}
+
+#nav-bar{
+	z-index: 1;
+	width: 50%;
+	margin: 2.4% 26%;
+	font-size: 1.4vw;
+	font-family: 'Roboto', sans-serif;
+}
+
+#nav_1, #nav_2, #nav_3, #nav_4{
+	display: inline-block;
+	width: 12.8%;
+	text-align: center;
+}
+
+#nav_1{
+	display: inline-block;
+	margin-right: 3%
+}
+
+#nav_2{
+	display: inline-block;
+	margin-left: 9%;
+	margin-right: 3%;
+}
+
+#nav_3{
+	margin-left: 9%;
+	margin-right: 3%
+}
+
+#nav_4{
+	margin-left: 9%;
+}
+
+#nav-bar a{
+	color: #A6A6A6;
+	text-decoration: none;
+}
+
+#current_page{
+	z-index: 2;
+	width: 1.2%;
+	margin-top: -.2%;
+}
+
+#contact_info{
+	float: center;
+	font-size: .9vw;
+	color: #A6A6A6;
+	position: absolute;
+	top: 1.5%;
+	left: 82.5%;
+}
+/* End Nav-Bar Styling */
+
+/*Banner Styling */
+#banner{
+	float: center;
+	margin-top: 0%;
+	margin-left: -2%;
+	width: 110%;
+	z-index: -100000;
+}
+/*End Banner Styling8/
+
+/*Product Page Pictures*/
+.mens{
+	background: transparent url('../Images/men_wallet.png') center bottom no-repeat; 
+	background-size: 50%;
+	width: 30%;
+ 	height: 30%;
+ 	position: absolute;
+ 	left: 1%;
+ 	top: 49%;
+}
+
+.mens:hover{
+	background-image: url('../Images/men_wallet_color.png'); 
+	cursor: pointer;
+}
+
+#mens{
+	position: absolute;
+	left: 10.4%;
+	top: 80%;
+}
+
+.clip{
+	background: transparent url('../Images/clip.png') center bottom no-repeat; 
+	background-size: 50%;
+	width: 30%;
+ 	height: 30%;
+ 	position: absolute;
+ 	left: 72%;
+ 	top: 49%;
+}
+
+.clip:hover{
+	background-image: url('../Images/clip_color.png'); 
+	cursor: pointer;
+}
+
+#clips{
+	position: absolute;
+	left: 81.7%;
+	top: 81%;
+}
+
+.womens{
+	background: transparent url('../Images/women_wallet.png') center bottom no-repeat; 
+	background-size: 50%;
+	width: 30%;
+ 	height: 30%;
+ 	position: absolute;
+ 	left: 25%;
+ 	top: 52%;
+}
+
+.womens:hover{
+	background-image: url('../Images/women_wallet_color.png'); 
+	cursor: pointer;
+}
+
+#womens{
+	position: absolute;
+	left: 33.5%;
+	top: 81%;
+}
+
+.travel{
+	background: transparent url('../Images/travel_wallet.png') center bottom no-repeat; 
+	background-size: 50%;
+	width: 30%;
+ 	height: 30%;
+ 	position: absolute;
+ 	left: 50%;
+ 	top: 51%;
+}
+
+.travel:hover{
+	background-image: url('../Images/travel.png'); 
+	cursor: pointer;
+}
+
+#travel{
+	position: absolute;
+	left: 60.2%;
+	top: 81%;
+}
+/*End Product Page Pictures*/
+
+/* Footer */
+footer {
+	clear:both;
+	margin:0;
+	padding: 5px 5px;
+	color:#333333;
+	font-variant: small-caps;
+	font-size: .813em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+footer hr{
+	border: solid .5px black;
+}
+
+footer img{
+	height:50px;
+	width:50px;
+	max-width:50px;
+	max-height:50px;
+	vertical-align: middle;
+}
+
+footer ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 5px 0px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer li{
+	display: inline-block;
+	padding: 0px 5px;
+	vertical-align: center;
+}
+
+footer li a {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#imgbar {
+	padding: 15px 0px;
+	height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+	.fb{
+	background: transparent url('../Images/fb.png') center bottom no-repeat; 
+	background-size: 50px;
+	width: 50px;
+ 	height: 50px;
+	}
+
+	.fb:hover{
+		background-image: url('../Images/fbcolor.png'); 
+	}
+
+	.ig{
+		background: transparent url('../Images/ig.png') center bottom no-repeat; 
+		background-size: 50px;
+		width: 50px;
+	 	height: 50px;
+	}
+
+	.ig:hover{
+		background-image: url('../Images/igcolor.png'); 
+	}
+
+	.yt{
+		background: transparent url('../Images/yt.png') center bottom no-repeat; 
+		background-size: 50px;
+		width: 50px;
+	 	height: 50px;
+	}
+
+	.yt:hover{
+		background-image: url('../Images/ytcolor.png'); 
+	}
+
+	.tw{
+		background: transparent url('../Images/tw.png') center bottom no-repeat; 
+		background-size: 50px;
+		width: 50px;
+	 	height: 50px;
+	}
+
+	.tw:hover{
+		background-image: url('../Images/twcolor.png'); 
+	}
+
+	.pin{
+		background: transparent url('../Images/pin.png') center bottom no-repeat; 
+		background-size: 50px;
+		width: 50px;
+	 	height: 50px;
+	}
+
+	.pin:hover{
+		background-image: url('../Images/pincolor.png'); 
+	}
+
+	.hp{
+		background: transparent url('../Images/huffpo.png') center bottom no-repeat; 
+		background-size: 50px;
+		width: 50px;
+	 	height: 50px;
+	}
+
+	.hp:hover{
+		background-image: url('../Images/huffpocolor.png'); 
+	}
+
+	.pg{
+		background: transparent url('../Images/pg.png') center bottom no-repeat; 
+		background-size: 50px;
+		width: 50px;
+	 	height: 50px;
+	}
+
+	.pg:hover{
+		background-image: url('../Images/pgcolor.png'); 
+	}
+
+	.vim{
+		background: transparent url('../Images/vimeo-black.png') center bottom no-repeat; 
+		background-size: 50px;
+		width: 50px;
+	 	height: 50px;
+	}
+
+	.vim:hover{
+		background-image: url('../Images/vimeo.png'); 
+	}
+
+	.pt{
+		background: transparent url('../Images/pinterest.png') center bottom no-repeat; 
+		background-size: 50px;
+		width: 50px;
+	 	height: 50px;
+	}
+
+	.pt:hover{
+		background-image: url('../Images/pinterest-red.png'); 
+	}
+/* End Footer */
+
+
+/*Jarrek Code */
+
+#map_wrapper{
+	width: 42%;
+	height: 100%;
+	margin-right: 5%;
+	margin-top: 5%;
+	float: right;
+	text-align: center;
+}
+
+#map{
+	margin: auto;
+	width: 100%;
+	height: 80%;
+}
+
+#shows{
+	margin-left: 5%;
+	margin-top: 5%;
+	float: left;
+	width: 42%;
+}
+
+#shows img{
+	width: 100%;
+}
+
+:focus {
+	outline:0;
+}
+
+#container-lower{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -2%;
+	margin-bottom: 4%;
+	height: 50%;
+}
+
+.gallery-lower{
+	height: 90%;
+	margin: 0% auto;
+	padding: 5%;
+	padding-top: 0%;
+	width: auto;
+}
+#text{
+	padding-left: 15%;
+	width: 70%;
+	font-size: 1vw;
+	margin-top: -13%;
+	text-align: right;
+}
+
+#my_line{
+	margin-top: 19%;
+	float: center;
+	border: solid .5px black;
+}
+
+#desc{
+	text-align: center;
+	width: 100%;
+}
+
+#desc1{
+	text-align: center;
+	width: 100%;
+}
+
+#lower{
+	position: absolute;
+	top: 138.5%;
+}
+
+#mg, #tg, #cg, #wg{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	margin-top: 0%;
+	margin-bottom: -24%;
+	float: center;
+	text-align: center;
+	overflow-y: hidden;
+}
+#mg iframe #tg iframe, #cg iframe, #wg iframe{
+	overflow-y: hidden;
+}
+
+.lower a{
+	text-decoration: none;
+	color: black;
+}
+
+#pic_about{
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 3%;
+}
+
+/*End Jarrek Code */
+
+#wallet-wrapper{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#custom-wallet{
+	width:500px;
+	height:450px;
+	display: block;
+    margin: 0 auto;
+}
+
+/*
+#blue:hover {
+	background-image:url("../Images/bifold-blue.jpg");
+}
+#brown:hover {
+	background-image:url("../Images/bifold-brown.jpg");
+}
+#gray:hover {
+	background-image:url("../Images/bifold-gray.jpg");
+}
+#black:hover {
+	background-image:url("../Images/bifold-black.jpg");
+}*/
+
+#picker {
+	list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 0px;
+	height: 100px;
+    line-height: 100px;
+}
+
+#picker li{
+	display: inline-block;
+	padding: 0px 10px;
+	vertical-align: center;
+}
+
+#picker img {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+	height: 100px;
+    border-radius: 10%;
+}
+
+form {
+	border-radius: 25px;
+}
+
+fieldset {
+	border-radius: 25px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+#twocol {
+	display: block;
+    justify-content: center;
+    padding: 5px 5px; 
+    width: auto;  
+}
+
+	.halfcol {
+		width: 45%;
+		margin: 0 auto;
+		float:left;
+		padding: 0 2% 25px 2%;
+	}
+
+	.halfcol img{
+		max-width: 100%;
+		height:auto;
+		width:auto;
+	}
+
+	#rightcol {
+		float:right;
+	}
+
+input[type=checkbox]:checked ~ div label{
+    background: url('../Images/no-rfid');
+    background-size: 100%;
+}
+
+#pic_about {
+	width:100%;
+	margin: 0;
+	padding:0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#current_page_about{
+	z-index: 5;
+	width: 1.2%;
+	margin-top: -.2%;	
+	margin-top: -224%;
+}
